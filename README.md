@@ -8,7 +8,7 @@ directories. Now supports tab completion.
 1. `git clone git://github.com/chunkily/bashmarks.git`
 2. `cd bashmarks`
 3. `bash install.sh`
-4. source **~/.local/bin/bashmarks.sh** from within your **~.bash_profile** or
+4. source **~/.bashrc.d/bashmarks.sh** from within your **~.bash_profile** or
    **~/.bashrc** file
 
 ## Shell Commands
@@ -46,8 +46,7 @@ g locallib
 
 ## Where Bashmarks are stored
 
-All of your directory bookmarks are saved in a file called ".sdirs" in your HOME
-directory.
+All of your directory bookmarks are saved in the file `~/.local/share/bashmarks`.
 
 ## Migrating from original bashmarks
 

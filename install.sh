@@ -1,9 +1,9 @@
-INSTALL_DIR=~/.local/bin
+INSTALL_DIR=~/.bashrc.d
 
 mkdir -p "$INSTALL_DIR"
 cp bashmarks.sh "$INSTALL_DIR"
 echo ""
-echo "Please add 'source ~/.local/bin/bashmarks.sh' to your .bashrc file"
+echo "Please add 'source $INSTALL_DIR/bashmarks.sh' to your .bashrc file"
 echo ''
 echo 'USAGE:'
 echo '------'
